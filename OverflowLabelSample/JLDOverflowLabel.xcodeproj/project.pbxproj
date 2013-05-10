@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE5CB726173CE4050037594D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5CB725173CE4050037594D /* UIKit.framework */; };
+		DE5CB728173CE4050037594D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5CB727173CE4050037594D /* Foundation.framework */; };
+		DE5CB72A173CE4050037594D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5CB729173CE4050037594D /* CoreGraphics.framework */; };
+		DE5CB730173CE4050037594D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE5CB72E173CE4050037594D /* InfoPlist.strings */; };
+		DE5CB732173CE4050037594D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5CB731173CE4050037594D /* main.m */; };
+		DE5CB736173CE4050037594D /* JLDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5CB735173CE4050037594D /* JLDAppDelegate.m */; };
+		DE5CB738173CE4050037594D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5CB737173CE4050037594D /* Default.png */; };
+		DE5CB73A173CE4050037594D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5CB739173CE4050037594D /* Default@2x.png */; };
+		DE5CB73C173CE4050037594D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5CB73B173CE4050037594D /* Default-568h@2x.png */; };
+		DE5CB73F173CE4050037594D /* JLDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5CB73E173CE4050037594D /* JLDViewController.m */; };
+		DE5CB742173CE4050037594D /* JLDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5CB740173CE4050037594D /* JLDViewController.xib */; };
+		DE5CB74F173CEEB00037594D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5CB74E173CEEB00037594D /* QuartzCore.framework */; };
+		DE5CB754173CF60C0037594D /* ShadowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5CB750173CF60C0037594D /* ShadowLeft.png */; };
+		DE5CB755173CF60C0037594D /* ShadowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5CB751173CF60C0037594D /* ShadowLeft@2x.png */; };
+		DE5CB756173CF60C0037594D /* ShadowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5CB752173CF60C0037594D /* ShadowRight.png */; };
+		DE5CB757173CF60C0037594D /* ShadowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5CB753173CF60C0037594D /* ShadowRight@2x.png */; };
+		DE5CB75B173CFA090037594D /* JLDOverflowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5CB75A173CFA090037594D /* JLDOverflowLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE5CB722173CE4050037594D /* JLDOverflowLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLDOverflowLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5CB725173CE4050037594D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE5CB727173CE4050037594D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE5CB729173CE4050037594D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE5CB72D173CE4050037594D /* JLDOverflowLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLDOverflowLabel-Info.plist"; sourceTree = "<group>"; };
+		DE5CB72F173CE4050037594D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE5CB731173CE4050037594D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE5CB733173CE4050037594D /* JLDOverflowLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLDOverflowLabel-Prefix.pch"; sourceTree = "<group>"; };
+		DE5CB734173CE4050037594D /* JLDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLDAppDelegate.h; sourceTree = "<group>"; };
+		DE5CB735173CE4050037594D /* JLDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLDAppDelegate.m; sourceTree = "<group>"; };
+		DE5CB737173CE4050037594D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE5CB739173CE4050037594D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE5CB73B173CE4050037594D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DE5CB73D173CE4050037594D /* JLDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLDViewController.h; sourceTree = "<group>"; };
+		DE5CB73E173CE4050037594D /* JLDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLDViewController.m; sourceTree = "<group>"; };
+		DE5CB741173CE4050037594D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JLDViewController.xib; sourceTree = "<group>"; };
+		DE5CB74E173CEEB00037594D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DE5CB750173CF60C0037594D /* ShadowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShadowLeft.png; sourceTree = "<group>"; };
+		DE5CB751173CF60C0037594D /* ShadowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ShadowLeft@2x.png"; sourceTree = "<group>"; };
+		DE5CB752173CF60C0037594D /* ShadowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShadowRight.png; sourceTree = "<group>"; };
+		DE5CB753173CF60C0037594D /* ShadowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ShadowRight@2x.png"; sourceTree = "<group>"; };
+		DE5CB759173CFA090037594D /* JLDOverflowLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLDOverflowLabel.h; path = ../../JLDOverflowLabel.h; sourceTree = "<group>"; };
+		DE5CB75A173CFA090037594D /* JLDOverflowLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLDOverflowLabel.m; path = ../../JLDOverflowLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE5CB71F173CE4050037594D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5CB74F173CEEB00037594D /* QuartzCore.framework in Frameworks */,
+				DE5CB726173CE4050037594D /* UIKit.framework in Frameworks */,
+				DE5CB728173CE4050037594D /* Foundation.framework in Frameworks */,
+				DE5CB72A173CE4050037594D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE5CB719173CE4050037594D = {
+			isa = PBXGroup;
+			children = (
+				DE5CB72B173CE4050037594D /* Classes */,
+				DE5CB724173CE4050037594D /* Frameworks */,
+				DE5CB723173CE4050037594D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE5CB723173CE4050037594D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE5CB722173CE4050037594D /* JLDOverflowLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE5CB724173CE4050037594D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE5CB74E173CEEB00037594D /* QuartzCore.framework */,
+				DE5CB725173CE4050037594D /* UIKit.framework */,
+				DE5CB727173CE4050037594D /* Foundation.framework */,
+				DE5CB729173CE4050037594D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE5CB72B173CE4050037594D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE5CB758173CF9F30037594D /* JLDOverflowLabel */,
+				DE5CB734173CE4050037594D /* JLDAppDelegate.h */,
+				DE5CB735173CE4050037594D /* JLDAppDelegate.m */,
+				DE5CB73D173CE4050037594D /* JLDViewController.h */,
+				DE5CB73E173CE4050037594D /* JLDViewController.m */,
+				DE5CB740173CE4050037594D /* JLDViewController.xib */,
+				DE5CB72C173CE4050037594D /* Supporting Files */,
+			);
+			name = Classes;
+			path = JLDOverflowLabel;
+			sourceTree = "<group>";
+		};
+		DE5CB72C173CE4050037594D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE5CB750173CF60C0037594D /* ShadowLeft.png */,
+				DE5CB751173CF60C0037594D /* ShadowLeft@2x.png */,
+				DE5CB752173CF60C0037594D /* ShadowRight.png */,
+				DE5CB753173CF60C0037594D /* ShadowRight@2x.png */,
+				DE5CB72D173CE4050037594D /* JLDOverflowLabel-Info.plist */,
+				DE5CB72E173CE4050037594D /* InfoPlist.strings */,
+				DE5CB731173CE4050037594D /* main.m */,
+				DE5CB733173CE4050037594D /* JLDOverflowLabel-Prefix.pch */,
+				DE5CB737173CE4050037594D /* Default.png */,
+				DE5CB739173CE4050037594D /* Default@2x.png */,
+				DE5CB73B173CE4050037594D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE5CB758173CF9F30037594D /* JLDOverflowLabel */ = {
+			isa = PBXGroup;
+			children = (
+				DE5CB759173CFA090037594D /* JLDOverflowLabel.h */,
+				DE5CB75A173CFA090037594D /* JLDOverflowLabel.m */,
+			);
+			name = JLDOverflowLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE5CB721173CE4050037594D /* JLDOverflowLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5CB748173CE4050037594D /* Build configuration list for PBXNativeTarget "JLDOverflowLabel" */;
+			buildPhases = (
+				DE5CB71E173CE4050037594D /* Sources */,
+				DE5CB71F173CE4050037594D /* Frameworks */,
+				DE5CB720173CE4050037594D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLDOverflowLabel;
+			productName = JLDOverflowLabel;
+			productReference = DE5CB722173CE4050037594D /* JLDOverflowLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE5CB71A173CE4050037594D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JLD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Cocoapps;
+			};
+			buildConfigurationList = DE5CB71D173CE4050037594D /* Build configuration list for PBXProject "JLDOverflowLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE5CB719173CE4050037594D;
+			productRefGroup = DE5CB723173CE4050037594D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE5CB721173CE4050037594D /* JLDOverflowLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE5CB720173CE4050037594D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5CB730173CE4050037594D /* InfoPlist.strings in Resources */,
+				DE5CB738173CE4050037594D /* Default.png in Resources */,
+				DE5CB73A173CE4050037594D /* Default@2x.png in Resources */,
+				DE5CB73C173CE4050037594D /* Default-568h@2x.png in Resources */,
+				DE5CB742173CE4050037594D /* JLDViewController.xib in Resources */,
+				DE5CB754173CF60C0037594D /* ShadowLeft.png in Resources */,
+				DE5CB755173CF60C0037594D /* ShadowLeft@2x.png in Resources */,
+				DE5CB756173CF60C0037594D /* ShadowRight.png in Resources */,
+				DE5CB757173CF60C0037594D /* ShadowRight@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE5CB71E173CE4050037594D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5CB732173CE4050037594D /* main.m in Sources */,
+				DE5CB736173CE4050037594D /* JLDAppDelegate.m in Sources */,
+				DE5CB73F173CE4050037594D /* JLDViewController.m in Sources */,
+				DE5CB75B173CFA090037594D /* JLDOverflowLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE5CB72E173CE4050037594D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5CB72F173CE4050037594D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE5CB740173CE4050037594D /* JLDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5CB741173CE4050037594D /* en */,
+			);
+			name = JLDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE5CB746173CE4050037594D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE5CB747173CE4050037594D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE5CB749173CE4050037594D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLDOverflowLabel/JLDOverflowLabel-Prefix.pch";
+				INFOPLIST_FILE = "JLDOverflowLabel/JLDOverflowLabel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE5CB74A173CE4050037594D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLDOverflowLabel/JLDOverflowLabel-Prefix.pch";
+				INFOPLIST_FILE = "JLDOverflowLabel/JLDOverflowLabel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE5CB71D173CE4050037594D /* Build configuration list for PBXProject "JLDOverflowLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5CB746173CE4050037594D /* Debug */,
+				DE5CB747173CE4050037594D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5CB748173CE4050037594D /* Build configuration list for PBXNativeTarget "JLDOverflowLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5CB749173CE4050037594D /* Debug */,
+				DE5CB74A173CE4050037594D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE5CB71A173CE4050037594D /* Project object */;
+}
